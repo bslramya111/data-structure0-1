@@ -1,0 +1,30 @@
+psuecode:
+step 1:start
+step 2: take n integer,diff,absolute values
+step 3: take input of n
+step 4:then caluculate absolute value absolute=n-51
+step 5: if n>51 then goto step6 otherwise goto step8
+step 6: calculate diff=3*absolute;
+step 7:print difference value
+step 8:print absolute value
+step9: stop
+
+#include <stdio.h>
+
+int main()
+{
+    int n,diff,absolute;
+    printf("enter n value");
+    scanf("%d",&n);
+    absolute=n-51;
+    if(n>51)
+    {
+        diff=3*absolute;
+        printf("%d",diff);
+    }
+    else
+    {
+        printf("%d",absolute);
+    }
+    return 0;
+}
