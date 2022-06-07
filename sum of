@@ -1,0 +1,30 @@
+psuecode:
+step1: start
+step2 : take two numbers a,b.
+step3:  take inputs a,b
+step4: ifnum1=num2then goto step5 otherwise goto step7.
+step5: calculate sum=a+b;
+step6: display sum value
+step7: culculate x value x=3*sum;
+step8: display x value
+step 9: stop
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,sum,x;
+    printf("enter two values");
+    scanf("%d %d",&a,&b);
+    if(a!=b)
+    {
+        sum=a+b;
+        printf("%d",sum);
+    }
+    else
+    {
+        x=3*sum;
+        printf("%d",x);
+    }
+    return 0;
+}
